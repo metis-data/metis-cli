@@ -1,9 +1,9 @@
 class MetisCli < Formula
-  desc ""
-  homepage ""
+  desc 
+  homepage 
   url "https://github.com/metis-data/metis-cli/releases/download/0.4.28/metis_macos_0.4.28"
   version "1.0.0"
-  sha256 ""
+  sha256 
   
   
   def install
