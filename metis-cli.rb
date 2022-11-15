@@ -1,7 +1,7 @@
 class MetisCli < Formula
   desc ""
   homepage ""
-  url https://github.com/metis-data/metis-cli/releases/download/0.4.26-test/metis_macos_0.4.26-test
+  url "https://github.com/metis-data/metis-cli/releases/download/0.4.26-test/metis_macos_0.4.26-test"
   version "1.0.0"
   sha256 "ae15e5bde8ea0405fa1dda500e698b4a0fb47dfc1233a2bcc12e905207cfa1dd"
   
