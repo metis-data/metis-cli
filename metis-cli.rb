@@ -3,7 +3,7 @@ class MetisCli < Formula
   homepage ""
   url "https://github.com/metis-data/metis-cli/releases/download/0.4.28/metis_macos_0.4.28"
   version "1.0.0"
-  sha256 '4df0206fde0aab327efc29acb5ee1c0d0fd2f5b61b62ebfbe4070c83603d5b2f'
+  sha256 d2114c1dcc16bbc7a33d5717bb28507428f30b08031347c1363d5c9694adc5b5
   
   
   def install
