@@ -1,15 +1,15 @@
 class MetisCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/metis-data/metis-cli/releases/download/1.0.2/metis_macos_1.0.2"
+  url "https://github.com/metis-data/metis-cli/releases/download/1.0.3/metis_macos_1.0.3"
   version "1.0.0"
-  sha256 "61c06ad99209c680edaa0cb08184e4722f21c0289de19bd6dc7149e0292d42a5"
+  sha256 "44d760497f0691d764810e640faa082eb29bcda66d9f4403548b99b0e86ad39a"
   
   
   def install
     require "fileutils"
 
-    File.rename("metis_macos_1.0.2", "metis-cli")
+    File.rename("metis_macos_1.0.3", "metis-cli")
     FileUtils.chmod("+x", "metis-cli")
     bin.install "metis-cli"
   end
